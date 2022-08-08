@@ -1,0 +1,601 @@
+a {
+    color: #ffffff;
+    text-decoration:none;
+}   
+
+@media (min-width : 600px) {
+
+    .header-grid-container {
+        display: grid;
+        /* height: 17rem; */
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    .name-subject {
+        font-size: 2.5rem;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        text-align: center;
+        grid-column: 1/13;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .grid-navbar {
+        margin-top: 3rem;
+        display: grid;
+        grid-column: 4/10;
+        grid-row: 2/3;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+    }
+    
+    .grid-nav-items {
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        font-size: 1.5rem;
+    
+    }
+
+    .main-section {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,1.7rem);
+        grid-column: 2/12;
+        background-color: white;
+        width: 30rem;
+        padding: 2rem 3rem 0 3rem;
+        border-radius: .8rem;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .call {
+        display: flex;
+        flex-direction: row;
+        grid-column: 1/12;
+        grid-row: 3;
+    }
+    
+    .tellphone {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right:1rem ;
+    }
+    
+    .phonenumber {
+        align-self: center;
+        font-size: 1.4rem;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        grid-column: 1/12;
+        grid-row: 7;
+    }
+
+    .img-email {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .email-address {
+        align-self: center;
+        font-size: 1.4rem;
+    }
+
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+        grid-column: 1/12;
+        grid-row: 5;
+    }
+
+    .img-whatsapp {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .whatsapp-number {
+        align-self: center;
+        font-size: 1.4rem;
+    }
+
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        grid-column: 1/12;
+        grid-row: 9;
+    }
+
+    .img-insta {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .insta {
+        align-self: center;
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media (min-width : 1020px) {
+
+    .header-grid-container {
+        display: grid;
+        /* height: 17rem; */
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    .name-subject {
+        font-size: 2.5rem;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        text-align: center;
+        grid-column: 1/13;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .grid-navbar {
+        margin-top: 3rem;
+        display: grid;
+        grid-column: 4/10;
+        grid-row: 2/3;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+    }
+    
+    .grid-nav-items {
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        font-size: 1.5rem;
+    
+    }
+
+    .main-section {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,1.7rem);
+        grid-column: 3/11;
+        background-color: white;
+        width: 704px;
+        padding: 2rem 3rem 0 3rem;
+        border-radius: .8rem;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+
+    .call {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 3
+    }
+    
+    .tellphone {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right:1rem ;
+    }
+    
+    .phonenumber {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 7;
+    }
+
+    .img-email {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .email-address {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 5;
+    }
+
+    .img-whatsapp {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .whatsapp-number {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 9;
+    }
+
+    .img-insta {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .insta {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+
+}
+
+
+@media (max-width : 599px) {
+
+    .header-grid-container {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    .name-subject {
+        font-size: 2.5rem;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        text-align: center;
+        grid-column: 1/7;
+        grid-row: 1/2;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .grid-navbar {
+        grid-column: 3/5;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .grid-nav-items {
+        padding: 7px;
+        align-self: center;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        font-size: 1.3rem;
+    }
+
+    .main-section {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,1.7rem);
+        grid-column: 3/11;
+        background-color: white;
+        width: 380px;
+        padding: auto;
+        border-radius: .8rem;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .call {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 3;
+    }
+    
+    .tellphone {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right:1rem ;
+    }
+    
+    .phonenumber {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 7;
+    }
+
+    .img-email {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .email-address {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 5;
+    }
+
+    .img-whatsapp {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .whatsapp-number {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 9;
+    }
+
+    .img-insta {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .insta {
+        align-self: center;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width : 400px) {
+
+    .header-grid-container {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    .name-subject {
+        font-size: 2.5rem;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        text-align: center;
+        grid-column: 1/7;
+        grid-row: 1/2;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .grid-navbar {
+        grid-column: 3/5;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .grid-nav-items {
+        padding: 7px;
+        align-self: center;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Titan One', cursive;
+        font-size: 1.3rem;
+    }
+
+    .main-section {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(12,1.7rem);
+        grid-column: 3/11;
+        background-color: white;
+        width: 276px;
+        padding: auto;
+        border-radius: .8rem;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .call {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 3;
+    }
+    
+    .tellphone {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right:1rem ;
+    }
+    
+    .phonenumber {
+        align-self: center;
+        font-size: .7rem;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 7;
+    }
+
+    .img-email {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .email-address {
+        align-self: center;
+        font-size: .65rem;
+    }
+
+    .whatsapp {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 5;
+    }
+
+    .img-whatsapp {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .whatsapp-number {
+        align-self: center;
+        font-size: .7rem;
+    }
+
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/12;
+        grid-row: 9;
+    }
+
+    .img-insta {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 1rem;
+    }
+
+    .insta {
+        align-self: center;
+        font-size: .7rem;
+    }
+
+}
+
+
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #BFA2DB;
+    border-color: #BFA2DB;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #BFA2DB;
+    border-color: #BFA2DB;
+}
+
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 .25 rgba(195, 77, 238, 0.5);
+}
+
+
+.text-primary {
+    color: #2C3333;
+}
+
+.bg-primary {
+    background-color: #878ECD;
+}
+
+.border-primary {
+    border-color: #BFA2DB;
+}
+
+.link-primary {
+    color: #d8bff0 !important;
+}
+.link-primary:hover {
+    color: #ceafeb !important;
+}
+
+.text-custom {
+    color: #bb8fe4;
+}
+
+.custom-grid-container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /* grid-template-rows: repeat(1,1fr); */
+}
+
+.cus-gr-item1 {
+    grid-row: 1/2;
+    grid-column: 4/10;
+    text-align: center;
+}
+
+.item-cu {
+    grid-row: 2/3;
+    grid-column: 1/13;
+    text-align: center;
+    grid-template-columns: repeat(12,1fr);
+    
+}
+
+
+
+.bg-custom1 {
+    background-color: #212529;
+}
+
+/* .size-pict-custom {
+    width: 400px;
+    height: 200px;
+} */
